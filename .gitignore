@@ -1,0 +1,26 @@
+# Superset config
+.superset/
+
+# Claude Code
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Node
+node_modules/
+
+# Databricks CLI
+.databricks/
+
+# OS
+.DS_Store
+*.swp
+
+# IDE
+.idea/
+.vscode/
