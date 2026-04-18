@@ -1,0 +1,12 @@
+command:
+  - uvicorn
+  - main:app
+  - --host
+  - 0.0.0.0
+  - --port
+  - "8000"
+env:
+  - name: CATALOG
+    value: classic_stable_nud6b0
+  - name: SCHEMA
+    value: credit_scoring
